@@ -1,6 +1,6 @@
 from core.config import settings
-
 from sqlalchemy import Column, Integer, String
+
 
 class CursoModel(settings.DBBaseModel):
     __tablename__ = 'curso'
